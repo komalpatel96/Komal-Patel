@@ -1,11 +1,140 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Bio</title>
-</head>
-<body>
+	<title>Komal Patel</title>
+	<!--STYLE SHEET -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--BOOTSTRAP CDN-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity=" sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!--Tagcanvas JS -->
+	<script type="text/javascript" src="assets/javascript/tagcanvas.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <!--[if lt IE 9]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+  <script src="tagcanvas.js" type="text/javascript"></script>
+  <script type="text/javascript">
+      window.onload = function() {
+        try {
+          TagCanvas.Start('myCanvas','tags',{
+            textColour:'#00FFFF',
+            outlineColour: 'black',
+            reverse: true,
+            depth: 0.3,
+            maxSpeed: 0.2,
+            outlineColour : '#fe0853',
+            maxSpeed : 0.06,
+            freezeActive:true,
+            shuffleTags:true,
+            shape:'sphere',
+            zoom:1,
+            noSelect:true,
+            textFont:null,
+            pinchZoom:true,
+            freezeDecel:true,
+            fadeIn:3000,
+            initial: [0.3,-0.1],
+            depth : 0.1
+          });
+        } catch(e) {
+          // something went wrong, hide the canvas container
+          document.getElementById('myCanvasContainer').style.display = 'none';
+        }
+      };
 
-	<h1>Komal Patel</h1>
+
+    </script>
+ 
+
+</head>
+<body class="body">
+
+    <!--NAVBAR-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Komal Patel</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="skill">
+    <div class="container">
+      <div class="info">
+        <img id="propic" src="assets/images/linkedin.jpg">
+        <h1>Hi, </h1>
+        <h1>I'm Komal, </h1>
+        <h2 class="cool">Web Developer.</h2>
+        <h3>Full Stack Web Developer / WordPress / React JS</h3>
+      </div>
+    <div>
+      
+        <canvas width="500" height="500" id="myCanvas">
+          <p id="textcolor">Anything in here will be replaced on browsers that support the canvas element</p>
+        </canvas>
+      <div id="tags">
+        <ul>
+          <li><a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank">HTML5/HTML</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank">CSS3/CSS</a></li>
+          <li><a href="https://www.w3schools.com/js/" target="_blank"JavaScript</a></li>
+          <li><a href="https://www.mysql.com/" target="_blank" >MySQL</a></li>
+          <li><a href="https://www.mongodb.com/" target="_blank">MongoDB</a></li>
+          <li><a href="https://reactjs.org/" target="_blank">React JS</a></li>
+          <li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
+          <li><a href="https://expressjs.com/" target="_blank">Express</a></li>
+          <li><a href="https://nodejs.org/en/" target="_blank">Node.js</a></li>
+          <li><a href="http://www.passportjs.org/" target="_blank">Passport.js</a></li>
+          <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+          <li><a href="materializecss.com/" target="_blank">Materialize CSS</a></li>
+          <li><a href="npmjs.com" target="_blank">npm</a></li>
+          <li><a href="npmjs.com" target="_blank">Yarn</a></li>
+          <li><a href="npmjs.com" target="_blank">REST APIs</a></li>
+          <li><a href="http://handlebarsjs.com/" target="_blank">Handlebars.js</a></li>
+          <li><a href="https://git-scm.com/" target="_blank">Git/Bitbucket</a></li>
+          <li><a href="www.adobe.com/products/photoshop.html" target="_blank">Adobe Photoshop</a></li>
+          <li><a href="www.adobe.com/products/photoshop-lightroom.html" target="_blank">Adobe Lightroom</a></li>
+          <li><a href="https://www.w3schools.com/xml/ajax_intro.asp" target="_blank">AJAX</a></li>
+          <li><a href="https://www.json.org/" target="_blank">JSON</a></li>
+          <li><a href="https://www.w3schools.com/php/" target="_blank">PHP</a></li>
+        </ul>
+      </div>
+      
+    </div>
+    
+  </div>
+  </section>
+    
+
+  <section>
+    <h3 id="filler" class="text-center"></h3>
+  </section>
+
+<!-- 		<br>
+		<div class="slideDown" style="text-align: center">
+		<p><strong>Languages & Databases</strong><br>
+		JavaScript · HTML5/HTML · CSS3/CSS · MySQL · MongoDB</p>
+		<hr>
+		<p>
+		<strong>Frameworks & Libraries</strong><br>
+		React JS · jQuery · Express · Node.js · Passport.js · Bootstrap · Materialize CSS · npm · Handlebars.js
+		</p>
+		<hr>
+		<p>
+		<strong>Tools & Software</strong><br>
+		Oracle/SQL · Git/Bitbucket · Bamboo/Jenkins · Adobe Photoshop · Adobe Lightroom</p>
+		</div> -->
 	
+        <footer>
+          <p>Copyright © Komal Patel 2018</p>
+        </footer>
+
+	<!--JQUERY-->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>	
+	<!--JAVASCRIPT-->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>

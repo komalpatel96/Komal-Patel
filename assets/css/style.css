@@ -1,0 +1,243 @@
+/*div{
+	border: 1px solid red;
+	text-decoration: bold;
+}
+*/
+img#propic{
+	position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+
+.body{
+	background-image: url("../images/4.jpg");
+}
+
+#filler{
+	padding: 50px; 
+	background-image: url("../images/4.jpg");
+}
+
+.skill{
+	margin-top: 60px;
+}
+
+canvas{
+	float: left;
+}
+
+.info{
+	margin: 0px;
+    float: right;
+    width: 35%;
+}
+.info > h1, h2{
+  color: #ccc; 
+  font-family: "Courier";
+  font-size: 20px;
+/*  margin: 10px 0 0 10px;
+*/  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+}
+
+.info > h3{
+  color: gray; 
+  font-family: "Courier";
+  font-size: 12px;
+/*  margin: 10px 0 0 10px;
+*/  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+}
+
+
+.info > h2{
+  color: #ccc; 
+  font-family: "Courier";
+  font-size: 20px;
+/*  margin: 10px 0 0 10px;
+*/  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+
+.contact-container{
+	background-image: url("../images/smokies.jpg");
+
+	background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+    height: 800px;
+    color: white;
+}
+
+
+#contactForm{
+	margin-top: 40px;
+}
+
+#businessCard{
+	width: 300px;
+    height: 170px;
+	transform: rotate(-25deg);
+	margin: 83px;
+	background: white;
+	color: black;
+	border: 1px solid black;
+	box-shadow: -11px 10px 5px #a9a9a98c;
+}
+
+#businessCard2{
+	width: 300px;
+    height: 170px;
+    transform: rotate(-12deg);
+    margin: -200px 55px -27px 161px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    box-shadow: -11px 10px 5px #a9a9a98c;
+}
+#businessCard3{
+	width: 300px;
+    height: 170px;
+    transform: rotate(16deg);
+    margin: -220px -74px 37px 200px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    box-shadow: -11px 10px 5px #a9a9a98c;
+}
+
+
+.listItem{
+	padding-left: 30px;
+}
+
+/*/////////////////     PORTFOLIO     ////////////*/
+#port{
+	padding: 40px 0px 40px 0px;
+}
+
+.portSection{
+	background: 01114c;
+	color: gray;
+}
+
+#window > a >img{
+	width: 450px;
+    height: 250px;
+    border: 1.5px solid lightgray;
+    box-shadow: 10px 10px 5px #a9a9a98c;
+
+}
+#window > a >h1{
+	color: #07096d;
+}
+/*/////////////////     PORTFOLIO     ////////////*/
+
+footer {
+  /* Box-model */
+  padding: 10px 0;
+
+  /* Positioning */
+  clear: both;
+  font-size: 12px;
+
+  /* Typography */
+  color: #ccc;
+  text-align: center;
+
+  /* Visual */
+  background: #666;
+  border-top: 3px solid #ccc;
+  margin-top: 25px
+}
+
+
+.slideDown{
+	animation-name: slideDown;
+	-webkit-animation-name: slideDown;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;	
+
+	visibility: visible !important;						
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}
+	50%{
+		transform: translateY(8%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+	}
+	50%{
+		-webkit-transform: translateY(8%);
+	}
+	65%{
+		-webkit-transform: translateY(-4%);
+	}
+	80%{
+		-webkit-transform: translateY(4%);
+	}
+	95%{
+		-webkit-transform: translateY(-2%);
+	}			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+/* ////////////////Panel/////////////////// */
+.panel-primary {
+  border-color: black;
+}
+.panel-primary > .panel-heading {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: black;
+}
+.panel-primary > .panel-heading .badge {
+  color: white;
+  background-color: black;
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: black;
+}
