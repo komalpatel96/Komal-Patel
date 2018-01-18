@@ -36,6 +36,11 @@ canvas{
     max-width: 600px;
     max-height: 600px;
   }
+  .info{
+	margin: 0px;
+    float: left;
+    width: 34%;
+}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 980px) {
@@ -52,6 +57,9 @@ canvas{
     border: 14px solid;
     border-radius: 50%;
     transition: width 2s;
+}
+.info{
+	width:75%;
 }
 
 
@@ -72,17 +80,15 @@ canvas{
     border-radius: 50%;
     transition: width 2s;
 }
+.info{
+	width:60%;
+}
 
 
 }
 
 /*////////////////////////////////////////////////////////*/
 
-.info{
-	margin: 0px;
-    float: left;
-    width: 33%;
-}
 .info > h1, h2{
   color: #ccc; 
   font-family: "Courier";
