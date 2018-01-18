@@ -9,11 +9,12 @@ img#propic{
     height: 300px;
     border: 14px solid;
     border-radius: 50%;
+    margin-top: 20px;
 }
 
 
 .body{
-	background-image: url("../images/4.jpg");
+	background-color: #0a0219;
 }
 
 #filler{
@@ -22,7 +23,7 @@ img#propic{
 }
 
 .skill{
-	margin-top: 60px;
+	margin-top: 35px;
 }
 
 canvas{
@@ -53,11 +54,12 @@ canvas{
     transition: width 2s;
 }
 
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 568px) {
 	canvas {
-	float: right;
+	float: left;
     max-width: 250px;
     max-height: 250px;
     transition: width 2s;
@@ -70,6 +72,8 @@ canvas{
     border-radius: 50%;
     transition: width 2s;
 }
+
+
 }
 
 /*////////////////////////////////////////////////////////*/
@@ -83,20 +87,16 @@ canvas{
   color: #ccc; 
   font-family: "Courier";
   font-size: 20px;
-/*  margin: 10px 0 0 10px;
-*/  white-space: nowrap;
+  white-space: nowrap;
   overflow: hidden;
-  width: 30em;
 }
 
 .info > h3{
   color: gray; 
   font-family: "Courier";
   font-size: 12px;
-/*  margin: 10px 0 0 10px;
-*/  white-space: nowrap;
+  white-space: nowrap;
   overflow: hidden;
-  width: 30em;
 }
 
 
@@ -115,29 +115,39 @@ canvas{
   from { width: 0; } 
 } 
 
-
+.btn{
+	width:100%;
+}
 
 
 /*/////////////////     PORTFOLIO     ////////////*/
 #port{
-	padding: 40px 0px 40px 0px;
+	padding: 10px 0px 0px 0px;
 }
 
 .portSection{
-	background: 01114c;
-	color: gray;
+/*	background: #01114c;
+*/	color: gray;
+	    margin-bottom: 25px;
 }
 
 #window > a >img{
-	width: 450px;
-    height: 250px;
+	width: 94%;
+    height: 80%;
     border: 1.5px solid lightgray;
     box-shadow: 10px 10px 5px #a9a9a98c;
 
 }
 #window > a >h1{
 	color: #07096d;
+	font-size: 30px;
 }
+
+#window > a > p{
+	color: dimgray;
+}
+
+
 /*/////////////////     PORTFOLIO     ////////////*/
 
 
@@ -151,8 +161,8 @@ h2#h2 {
 }
 
 .contact-container{
-	background-image: url("../images/smokies.jpg");
-
+/*	background-image: url("../images/smokies.jpg");
+*/
 	background-repeat: no-repeat;
     background-size: auto;
     -webkit-background-size: cover;
@@ -162,41 +172,14 @@ h2#h2 {
     color: white;
 }
 
+#card{
+	width: 95%;
+    margin: 8% 0 0 0;
+}
 
 #contactForm{
+	margin-bottom: 10%;
 	margin-top: 40px;
-}
-
-#businessCard{
-	width: 300px;
-    height: 170px;
-	transform: rotate(-25deg);
-	margin: 83px;
-	background: white;
-	color: black;
-	border: 1px solid black;
-	box-shadow: -11px 10px 5px #a9a9a98c;
-}
-
-#businessCard2{
-	width: 300px;
-    height: 170px;
-    transform: rotate(-12deg);
-    margin: -200px 55px -27px 161px;
-    background: white;
-    color: black;
-    border: 1px solid black;
-    box-shadow: -11px 10px 5px #a9a9a98c;
-}
-#businessCard3{
-	width: 300px;
-    height: 170px;
-    transform: rotate(16deg);
-    margin: -220px -74px 37px 200px;
-    background: white;
-    color: black;
-    border: 1px solid black;
-    box-shadow: -11px 10px 5px #a9a9a98c;
 }
 
 
