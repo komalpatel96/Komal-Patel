@@ -7,9 +7,9 @@ img#propic{
 	position: relative;
     width: 250px;
     height: 250px;
+    border: 14px solid;
     border-radius: 50%;
 }
-
 
 
 .body{
@@ -28,6 +28,34 @@ img#propic{
 canvas{
 	float: left;
 }
+
+@media only screen {
+  canvas {
+  	float: left;
+    max-width: 500px;
+    max-height: 500px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 980px) {
+   canvas {
+	float: left;
+    max-width: 400px;
+    max-height: 400px;
+    transition: width 2s;
+  } 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+	canvas {
+	float: left;
+    max-width: 300px;
+    max-height: 300px;
+    transition: width 2s;
+  }  
+}
+
+/*////////////////////////////////////////////////////////*/
 
 .info{
 	margin: 0px;
@@ -70,6 +98,40 @@ canvas{
   from { width: 0; } 
 } 
 
+
+
+
+/*/////////////////     PORTFOLIO     ////////////*/
+#port{
+	padding: 40px 0px 40px 0px;
+}
+
+.portSection{
+	background: 01114c;
+	color: gray;
+}
+
+#window > a >img{
+	width: 450px;
+    height: 250px;
+    border: 1.5px solid lightgray;
+    box-shadow: 10px 10px 5px #a9a9a98c;
+
+}
+#window > a >h1{
+	color: #07096d;
+}
+/*/////////////////     PORTFOLIO     ////////////*/
+
+
+/*-----------------CONTACT------------------------*/
+h2#h2 {
+	color: gray;
+}
+
+#email, #message, #name{
+	padding-left: 2%;
+}
 
 .contact-container{
 	background-image: url("../images/smokies.jpg");
@@ -126,28 +188,8 @@ canvas{
 	padding-left: 30px;
 }
 
-/*/////////////////     PORTFOLIO     ////////////*/
-#port{
-	padding: 40px 0px 40px 0px;
-}
 
-.portSection{
-	background: 01114c;
-	color: gray;
-}
-
-#window > a >img{
-	width: 450px;
-    height: 250px;
-    border: 1.5px solid lightgray;
-    box-shadow: 10px 10px 5px #a9a9a98c;
-
-}
-#window > a >h1{
-	color: #07096d;
-}
-/*/////////////////     PORTFOLIO     ////////////*/
-
+/*-----------------CONTACT------------------------*/
 footer {
   /* Box-model */
   padding: 10px 0;
