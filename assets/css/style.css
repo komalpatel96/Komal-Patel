@@ -5,8 +5,8 @@
 */
 img#propic{
 	position: relative;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border: 14px solid;
     border-radius: 50%;
     margin-top: 20px;
@@ -24,6 +24,11 @@ img#propic{
 
 .skill{
 	margin-top: 35px;
+}
+
+img.contactImages{
+	width: 12%;
+    height: 10%;
 }
 
 canvas{
@@ -89,7 +94,7 @@ canvas{
 
 /*////////////////////////////////////////////////////////*/
 
-.info > h1, h2{
+#info > h1, h2{
   color: #ccc; 
   font-family: "Courier";
   font-size: 20px;
@@ -97,7 +102,7 @@ canvas{
   overflow: hidden;
 }
 
-.info > h3{
+#info > h3{
   color: gray; 
   font-family: "Courier";
   font-size: 12px;
@@ -106,7 +111,7 @@ canvas{
 }
 
 
-.info > h2{
+#info > h2{
   color: #ccc; 
   font-family: "Courier";
   font-size: 20px;
@@ -158,6 +163,7 @@ canvas{
 
 
 /*-----------------CONTACT------------------------*/
+
 h2#h2 {
 	color: gray;
 }
@@ -212,7 +218,7 @@ footer {
   text-align: center;
 
   /* Visual */
-  background: #666;
+  background: #0a0219;
   border-top: 3px solid #ccc;
   margin-top: 0px;
 }

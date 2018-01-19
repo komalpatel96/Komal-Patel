@@ -25,21 +25,31 @@
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+        <section class="pull-right" id="ContactMe">
+            <div id="images">
+              <img src="assets/images/github.png" class="contactImages" target="_blank">
+              <img src="assets/images/LinkedIn.png" class="contactImages" target="_blank">
+              <img src="assets/images/Stack_overflow.png" class="contactImages" target="_blank">
+            </div>
+        </section>  
     </div>
   </nav>
-  <section class="skill">
+  
     <div class="container">
+      <section class="skill"> 
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
       <div class="info">
         <img id="propic" src="assets/images/linkedin.jpg">
+      <div id="info">
         <h1>Hi, </h1>
         <h1>I'm Komal, </h1>
         <h2 class="cool">Web Developer.</h2>
         <h3>Full Stack Web Developer / React JS</h3>
       </div>
+        
+      </div>
     <div>
-      
-        <canvas width="500" height="500" id="myCanvas">
+          <canvas class="slideDown" width="500" height="500" id="myCanvas">
           <p id="textcolor">Anything in here will be replaced on browsers that support the canvas element</p>
         </canvas>
 
@@ -97,7 +107,7 @@
       window.onload = function() {
         try {
           TagCanvas.Start('myCanvas','tags',{
-            textColour:'#00FFFF',
+            textColour:'#08fdd8',
             outlineColour: 'black',
             reverse: true,
             depth: 0.3,
