@@ -221,10 +221,9 @@ footer {
   background: #0a0219;
   border-top: 3px solid #ccc;
   margin-top: 0px;
-  position: absolute;
   bottom: 0;
   width: 100%;
-  
+
 }
 
 
@@ -301,4 +300,8 @@ footer {
 }
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: black;
+}
+
+.container{
+	height: 100%;
 }
