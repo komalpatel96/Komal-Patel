@@ -31,26 +31,16 @@ img.contactImages{
     height: 10%;
 }
 
-canvas{
-	float: right;
-}
 
 @media only screen {
   canvas {
-  	float: right;
     max-width: 600px;
     max-height: 600px;
   }
-  .info{
-	margin: 0px;
-    float: left;
-    width: 34%;
-}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 980px) {
    canvas {
-	float: right;
     max-width: 350px;
     max-height: 350px;
     transition: width 2s;
@@ -62,17 +52,11 @@ canvas{
     border: 14px solid;
     border-radius: 50%;
     transition: width 2s;
-}
-.info{
-	width:75%;
-}
-
-
+	}
 }
 
 @media only screen and (min-width: 320px) and (max-width: 568px) {
 	canvas {
-	float: left;
     max-width: 250px;
     max-height: 250px;
     transition: width 2s;
@@ -85,10 +69,6 @@ canvas{
     border-radius: 50%;
     transition: width 2s;
 }
-.info{
-	width:60%;
-}
-
 
 }
 
@@ -99,7 +79,6 @@ canvas{
   font-family: "Courier";
   font-size: 20px;
   white-space: nowrap;
-  overflow: hidden;
 }
 
 #info > h3{
@@ -107,7 +86,6 @@ canvas{
   font-family: "Courier";
   font-size: 12px;
   white-space: nowrap;
-  overflow: hidden;
 }
 
 
@@ -117,7 +95,6 @@ canvas{
   font-size: 20px;
 /*  margin: 10px 0 0 10px;
 */  white-space: nowrap;
-  overflow: hidden;
   width: 30em;
   animation: type 4s steps(60, end); 
 }
@@ -205,27 +182,6 @@ form{
 
 
 /*-----------------CONTACT------------------------*/
-footer {
-  /* Box-model */
-  padding: 10px 0;
-
-  /* Positioning */
-  clear: both;
-  font-size: 12px;
-
-  /* Typography */
-  color: #ccc;
-  text-align: center;
-
-  /* Visual */
-  background: #0a0219;
-  border-top: 3px solid #ccc;
-  margin-top: 0px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-
-}
 
 
 .slideDown{
@@ -303,6 +259,40 @@ footer {
   border-bottom-color: black;
 }
 
-.container{
+html, body{
+	margin: 0;
+	padding: 0;
 	height: 100%;
+}
+.container{
+	min-height: 100%;
+	position: relative;
+}
+
+#header{
+	padding: 10px;
+	padding-bottom: 10px;
+}
+
+footer {
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  /* Box-model */
+  padding: 10px 0;
+
+  /* Positioning */
+  clear: both;
+  font-size: 12px;
+
+  /* Typography */
+  color: #ccc;
+  text-align: center;
+
+  /* Visual */
+  background: #0a0219;
+  border-top: 3px solid #ccc;
+  margin-top: 0px;
 }
