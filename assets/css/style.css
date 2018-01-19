@@ -18,8 +18,22 @@ img#propic{
 }
 
 #filler{
-	padding: 50px; 
-	background-image: url("../images/4.jpg");
+	height: 200px;
+	background-image: url("../images/social.jpg");
+/*	background-image: url(../images/la.jpg);
+*/	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+
+#filler > h3{
+	padding-top: 2%;
+	color: white;
+
 }
 
 .skill{
@@ -27,7 +41,7 @@ img#propic{
 }
 
 img.contactImages{
-	width: 12%;
+	width: 5%;
     height: 10%;
 }
 
@@ -276,7 +290,6 @@ html, body{
 
 footer {
 
-  position: absolute;
   bottom: 0;
   width: 100%;
 
