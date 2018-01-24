@@ -32,7 +32,11 @@ img#propic{
 
 #filler > h3{
 	padding-top: 2%;
-	color: white;
+    color: #848484;
+    font-size: 15px;
+    font-family: "Courier";
+    white-space: nowrap;
+    font-weight: 600;
 
 }
 
@@ -295,7 +299,7 @@ html, body{
 	height: 100%;
 }
 .container{
-	min-height: 100%;
+	min-height: 75%;
 	position: relative;
 }
 

@@ -42,7 +42,7 @@
 
 
   <div class="container">
-    <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-4">
+    <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-5">
       <div class="info">
         <img id="propic" src="assets/images/linkedin.jpg">
           <div id="info">
@@ -54,7 +54,7 @@
       </div>
       
     </div>
-    <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-4">
+    <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-5">
       <canvas class="slideDown" width="500" height="500" id="myCanvas">
           <p id="textcolor">Anything in here will be replaced on browsers that support the canvas element</p>
       </canvas>
@@ -87,6 +87,13 @@
         </div>
     </div>
   </div>
+  <!-- <section>
+    My main area of expertise is front end developemnt and everything related with this side of the web. HTML, CSS, JS (ES5, ES5), building small and medium Web Apps, React.js, features and coding layouts. 
+    <br>
+    I also have experience with Node.js, MongoDB, MySQL. 
+    <br>
+    If you would like to know, check my <strong><a href="https://www.linkedin.com/in/komalpatel96/">LinkedIn</a></strong>
+  </section> -->
 
   <section id="filler" class="text-center">
     <h3>Follow me on:</h3>
@@ -108,8 +115,10 @@
   <!--JAVASCRIPT-->
   <script type="text/javascript" src="assets/javascript/app.js"></script>
   <!--Tagcanvas JS -->
-  <script type="text/javascript" src="assets/javascript/tagcanvas.js"></script>
-
+  <script type="text/javascript" src="assets/javascript/tagcanvas.js"></script>  
+  <!--JQUERY-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
   <script type="text/javascript">
       window.onload = function() {
         try {
@@ -124,7 +133,7 @@
             freezeActive:true,
             shuffleTags:true,
             shape:'sphere',
-            zoom:1,
+            zoom:1.1,
             noSelect:true,
             textFont:null,
             pinchZoom:true,
@@ -139,7 +148,4 @@
         }
       };
     </script>
-    <!--JQUERY-->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
 </html>
