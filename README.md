@@ -5,4 +5,4 @@ This is the webpage for my resume, links to my professional websites and a summa
 
 ## Link to the page: 
 
-<a href="https://komalpatel96.github.io/">https://komalpatel96.github.io/</a>s
+<a href="https://komalpatel96.github.io/">https://komalpatel96.github.io/</a>
